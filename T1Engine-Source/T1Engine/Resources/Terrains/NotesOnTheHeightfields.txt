@@ -1,0 +1,13 @@
+These plain text heigtfields were created in 1998 by Robert Cox and Paul Bavinton using a delphi program that was an erosion model inspired by the idea that rivers are in fact a form of hebbian leraning (which is actually rather silly).
+
+Much to the suprise of their creators they have ben very usefull as a teaching tool for 3d graphics subjects at the university of canberra
+
+The X22_ series (180 by 180) had a model that assumed the ocean was of constant height hence all ocean heights are -1
+
+The X20_ series (102 by 102) had a model that assumed sea level rise hence they have underwater features 
+
+The X21_ series (various sizes) are fabrications from excel for teaching and testing purposes (some are subsets of the X20 series).
+
+They are officially released into the public domain in 2015 though in truth they have been avaiailable on public web sites since 2005 
+
+Hope You find them usefull.
