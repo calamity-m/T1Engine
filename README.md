@@ -26,13 +26,13 @@ First Scene 2: (Multiple Models & Multi-textured/Subgrouped Models)
 
 ![t1enginess2](https://user-images.githubusercontent.com/11038569/33595699-287af7aa-d9ed-11e7-90ef-6590fd6c1cdc.png)
 
-First Scene 2: (Multiple Models & Multi-textured/Subgrouped Models)
-
-![t1enginess5](https://user-images.githubusercontent.com/11038569/33595837-b740ad22-d9ed-11e7-91b2-a36a09a4c16d.png)
-
 Second Scene: (Staged Scene)
 
 ![t1enginess3](https://user-images.githubusercontent.com/11038569/33595725-443fabfc-d9ed-11e7-8235-03be452b1430.png)
+
+Second Scene 2: (Staged Scene)
+
+![t1enginess5](https://user-images.githubusercontent.com/11038569/33595837-b740ad22-d9ed-11e7-91b2-a36a09a4c16d.png)
 
 Third Scene: (Basic Terrain System)
 
