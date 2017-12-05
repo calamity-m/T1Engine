@@ -14,7 +14,9 @@ Basic engine that I built for my introduction to 3d graphics course (Virtual and
 
 Below are some screenshots of basic scenes built to showcase the engine. Keep in mind that this was built as a final project for a class while taking 3 other classes and with a deadline of 3 or so weeks.
 
-##Screenshots
+## Screenshots
+
+(All screenshots of scenes are running at 60+ FPS)
 
 First Scene: (Multiple Models & Multi-textured/Subgrouped Models)
 
