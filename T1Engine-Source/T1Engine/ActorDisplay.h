@@ -10,9 +10,13 @@ class ActorDisplay : public Actor {
 
 protected:
 
+	/* Model data for our actor */
 	ResourceManager::Model model;
+	/* Integer ID for our main texture */
 	int textureId;
+	/* Rotation amount */
 	float rotationAmount;
+	/* Internal rotation of our actor along the Y Axis */
 	float rotation;
 
 public:
