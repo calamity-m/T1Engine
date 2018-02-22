@@ -4,12 +4,17 @@
 
 #include "Transform.h"
 
+/* Base class for any scene objects that have a transform */
 class Actor {
 
 public:
+	// Is this actor currently active?
 	bool active = true;
+	// Transform of this actor
 	Transform transform;
+	// Update called each frame
 	virtual void Update() = 0;
+	// Render call
 	virtual void Render() = 0;
 };
 
