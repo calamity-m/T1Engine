@@ -111,6 +111,12 @@ unsigned int ResourceManager::addTexture(char *fname, char *textureName, bool mi
 }
 
 ResourceManager::Model ResourceManager::getModel(char *name) {
+	for (int i = 0; i < modelList.size(); i++) {
+		if (strcmp(name, modelList[i].modelName)) {
+			return modelList[i];
+		}
+	}
+
 	return modelList[0];
 }
 
@@ -122,6 +128,12 @@ ResourceManager::Model ResourceManager::getModel(int index) {
 }
 
 ResourceManager::Texture ResourceManager::getTexture(char *name) {
+	for (int i = 0; i < texList.size(); i++) {
+		if (strcmp(name, texList[i].texName)) {
+			return texList[i];
+		}
+	}
+
 	return texList[0];
 }
 
@@ -202,7 +214,6 @@ unsigned int ResourceManager::addTerrainFookOff(char * fname, char *name, float 
 	return 1;
 
 }
-
 
 ResourceManager::TerrainDEM ResourceManager::getTerrain(int index) {
 	if (index >= terrains.size())
