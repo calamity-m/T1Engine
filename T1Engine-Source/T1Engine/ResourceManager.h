@@ -25,17 +25,21 @@
 #define menuScene4 4
 #define menuExit 99
 
+// Macro for clamp
 #define GL_CLAMP_TO_EDGE 0x812F
 
+// FPS & Timer macros
 #define FPS 60
 #define timerMSecs ((int)1000/FPS)
 
+// PI Macro
 #define PI 3.14159265358979323846264338327950288
 
 class ResourceManager {
 
 public:
 
+	// Basic struct for texture holding a GLuint pointing to texture position and a name
 	struct Texture {
 		GLuint texHandle;
 		char *texName;
@@ -45,6 +49,7 @@ public:
 		}
 	};
 
+	// Model struct for a model with mesh data, a model name and an indentifying ID
 	struct Model {
 		std::vector<MeshLoader::Mesh> meshData;
 		char *modelName;
@@ -60,6 +65,7 @@ public:
 		}
 	};
 
+	// Terrain struct for terrain data and rendering
 	struct TerrainDEM {
 		int terrain;
 		char *terrainName;
