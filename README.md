@@ -1,6 +1,5 @@
 # T1Engine
-
-Basic 3D Fixed-Rendering Pipeline Engine built in C++ using OpenGL and Glut
+Basic 3D Fixed-Rendering Pipeline Engine built in C++ using OpenGL and Glut from scratch. Doesn't use shaders but still servers as a nice baseline for fixed-rendering and 3D Graphics with OpenGL.
 
 - Includes custom working OBJ Loader with working illumination/normals, texturing and proper sub-object grouping
 - Complete scene management implemented - basic state management
@@ -10,18 +9,41 @@ Basic 3D Fixed-Rendering Pipeline Engine built in C++ using OpenGL and Glut
 - Built in 3 weeks as a final project (excl. OBJ loader)
 - Basic DEM terrain system implemented with polygon normals
 
-Basic engine that I built for my introduction to 3d graphics course (Virtual and Interactive Computing) as a final project from scratch. Most of the time was spent building scenes, and earlier in the course creating the OBJ loader. Basic, and doesn't use shaders - but still serves as a pretty nice baseline for fixed-rendering with OpenGL.
+Comes with a custom 3D OBJ Loader also built from scratch. Loads triangle and quad face meshes quickly and efficiently. As  this was done as a final project for a 3D Graphics Course external libraries besides Glut wasn't allowed - hence creating a custom OBJ Loader and simple collision system. NOTE: It would obviously be better to use an already existing solution for collison - such as Bullet physics, and like-wise for loading 3D models, but both my custom solutions work fine in hindsight and the 3D loader in particular, is quite feature complete.
 
-Below are some screenshots of basic scenes built to showcase the engine. Keep in mind that this was built as a final project for a class while taking 3 other classes and with a deadline of 3 or so weeks.
+## Contents
+* [Todos](#todo)
+* [Prerequisites](#prerequisites)
+* [How to Use](#how-to-use)
+* [Examples](#examples)
+	* [Video](#video)
+	* [Screenshots](#Screenshots)
+* [References](#references)
 
 ## TODO:
-Update Documentation
+- [X] Update Documentation
+- [X] Refactor ActorDisplay.cpp and ActorDisplay.h
+- [ ] Finalize Last (Unused) Scene
 
-## Screenshots
+## Prerequisites:
+Visual Studio 2015/2017, OpenGL Capable Graphics Card.
+(Glut libraries come with project source)
+
+## How to Use
+Simply compile in Visual Studio. Currently working on other ways to reuse codebase (besides taking what you want, etc.)
+
+## Examples
+Below are some screenshots of basic scenes built to showcase the engine as well as a video showing the engine running.
+
+### Video
+Coming soonm8s
+
+### Screenshots
 
 (All screenshots of scenes are running at 60+ FPS)
 
 First Scene: (Multiple Models & Multi-textured/Subgrouped Models)
+
 
 ![t1enginess1](https://user-images.githubusercontent.com/11038569/33595674-14e5c954-d9ed-11e7-8790-2088a0ae823b.png)
 
@@ -41,5 +63,7 @@ Third Scene: (Basic Terrain System)
 
 ![t1enginess4](https://user-images.githubusercontent.com/11038569/33595734-507ee766-d9ed-11e7-9924-39c01ff9050c.png)
 
+## References
+All relevant references included in source code classes.
 
 
