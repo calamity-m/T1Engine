@@ -44,7 +44,7 @@ The structure of the T1 Engine is open, meaning that while certain things are se
 The included Actor classes and scenes just act as an example - they were also built in regards to steep time deadlines, and so certain corners were cut (e.g. the ActorPlayer class is not really feature complete and movement is handled elsewhere) but the functionality exists to do these properly, and can handle any type of fixed-rendering game.
 
 Following structure constrains are listed here:
-* Every object movable object (exl. Camera) in the world is derived from Actor base class
+* Every movable object (exl. Camera) in the world is derived from Actor base class
 	* Every Actor has a transform which contains position, rotation and scale
 	* Every Actor implements an update method called every frame and,
 	* Every Actor implements a render method called every time the screen is drawn
