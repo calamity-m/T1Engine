@@ -64,7 +64,7 @@ Below are some screenshots of basic scenes built to showcase the engine as well 
 
 ### Video
 
-Coming soonm8s
+Coming soon
 
 ### Screenshots
 
