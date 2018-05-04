@@ -20,7 +20,7 @@ Additionally, this engine while built as a project to explore 3D Graphics, its f
 * [Structure](#structure)
 * [Examples](#examples)
 	* [Video](#video)
-	* [Screenshots](#Screenshots)
+	* [Screenshots](#screenshots)
 * [References](#references)
 
 ## TODO:
